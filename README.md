@@ -6,6 +6,9 @@ Se o usuário inserir uma frase, o código a analisa usando o SpaCy e imprime os
 
 Em resumo, esse código é um ponto de partida básico para analisar a estrutura gramatical de frases na língua portuguesa usando Python e a biblioteca SpaCy.
 
+<!--IMG-->
+<img src="https://github.com/Pauloxc6/analise_frase/blob/main/img/1.png" width="700px">
+
 ## Instalação
 ### Linux
 
@@ -24,7 +27,7 @@ python3 main.py
 1. Primeiro instale a versão mais recente do [python](https://www.python.org/downloads/windows/). Fique atento a arquitetura do seu processador (32 bits ou 64 bits)<br/>
 2. Baixe o [.ZIP](https://github.com/Pauloxc6/analise_frase/archive/refs/heads/main.zip) é extraia em algum diretório do computador
 3. Abra seu prompt de comando (cmd)<br/>
-   ``windowns + r`` é depos digite cmd (Inicie como administrador)
+   ``windowns + r`` é depois digite cmd (Inicie como administrador)
 ```
 cd analise_frase
 python -m pip install --upgrade pip

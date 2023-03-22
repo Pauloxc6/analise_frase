@@ -42,7 +42,7 @@ python3 main.py
 ```
 ou
 ```
-cd ~/analise_frase
+cd C:\Users\nome_do_usuario\analise_frase
 make 
 ```
 

@@ -12,11 +12,11 @@ Em resumo, esse código é um ponto de partida básico para analisar a estrutura
 ## Instalação
 ### Linux
 
-1. Abra seu terminal é Digete os seguintes comandos:<br/>
+1. Abra seu terminal é digite os seguintes comandos:<br/>
 ```
 apt update && apt upgrade -y
 git clone https://github.com/Pauloxc6/analise_frase/
-cd analise_frase
+cd ~/analise_frase
 python -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
 python3 -m spacy download pt_core_news_sm
@@ -24,12 +24,12 @@ python3 main.py
 ```
 ### Windows
 
-1. Primeiro instale a versão mais recente do [python](https://www.python.org/downloads/windows/). Fique atento a arquitetura do seu processador (32 bits ou 64 bits)<br/>
-2. Baixe o [.ZIP](https://github.com/Pauloxc6/analise_frase/archive/refs/heads/main.zip) é extraia em algum diretório do computador
+1. Primeiro, instale a versão mais recente do [python](https://www.python.org/downloads/windows/). Verifique a arquitetura do seu processador (32 bits ou 64 bits).<br/>
+2. Baixe o arquivo [.ZIP](https://github.com/Pauloxc6/analise_frase/archive/refs/heads/main.zip) e extraia-o em algum diretório do seu computador.
 3. Abra seu prompt de comando (cmd)<br/>
    ``windowns + r`` é depois digite cmd (Inicie como administrador)
 ```
-cd analise_frase
+cd C:\Users\nome_do_usuario\analise_frase
 python -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
 python3 -m spacy download pt_core_news_sm

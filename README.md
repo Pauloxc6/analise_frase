@@ -35,3 +35,7 @@ python3 -m pip install -r requirements.txt
 python3 -m spacy download pt_core_news_sm
 python3 main.py
 ```
+
+## Licença
+
+Este projeto está licenciado sob a [GNU Gl](https://github.com/Pauloxc6/analise_frase/blob/main/LICENSE).

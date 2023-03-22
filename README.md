@@ -17,10 +17,15 @@ Em resumo, esse código é um ponto de partida básico para analisar a estrutura
 apt update && apt upgrade -y
 git clone https://github.com/Pauloxc6/analise_frase/
 cd ~/analise_frase
-python -m pip install --upgrade pip
+python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
 python3 -m spacy download pt_core_news_sm
 python3 main.py
+```
+ou
+```
+cd ~/analise_frase
+make install
 ```
 ### Windows
 
@@ -30,10 +35,15 @@ python3 main.py
    ``windowns + r`` é depois digite cmd (Inicie como administrador)
 ```
 cd C:\Users\nome_do_usuario\analise_frase
-python -m pip install --upgrade pip
+python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
 python3 -m spacy download pt_core_news_sm
 python3 main.py
+```
+ou
+```
+cd ~/analise_frase
+make 
 ```
 
 ## Licença

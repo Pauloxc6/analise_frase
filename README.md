@@ -38,4 +38,4 @@ python3 main.py
 
 ## Licença
 
-Este projeto está licenciado sob a [GNU Gl](https://github.com/Pauloxc6/analise_frase/blob/main/LICENSE).
+Este projeto está licenciado sob a [GNU General Public License v3.0](LICENSE).

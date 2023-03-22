@@ -5,6 +5,10 @@ import spacy
 import pyfiglet
 import platform
 import datetime
+from colorama import init, Fore, Back, Style
+
+#Cor
+init(autoreset=True)
 
 #Hora é data
 ht = datetime.datetime.now().time()
@@ -23,8 +27,8 @@ clear_screen()
 ascii_banner = pyfiglet.figlet_format("Analise de frase")
 print(ascii_banner)
 print("-"*72)
-print('\033[34m' + "By: @pauloxc6 \t" + f'(| Hora: {hf} | Data: {df} |)' +'\033[0m')
-print('\033[34m' + "Github: Pauloxc6" + '\033[0m')
+print(Fore.BLUE + "By: @pauloxc6 \t" + f'(| Hora: {hf} | Data: {df} |)' + Fore.RESET)
+print(Fore.BLUE + "Github: Pauloxc6" + Fore.RESET)
 print("-"*72)
 print()
 
@@ -36,7 +40,7 @@ while True:
     # Pede ao usuário para inserir uma frase
     #frase = input('Insira uma frase para análise (ou digite "sair" para encerrar o programa): ')
     print('Insira uma frase para análise (ou digite "sair" para encerrar o programa)')
-    frase = input('\033[36m'+ f'root@{platform.system()}:~# ' + '\033[0m')
+    frase = input(Fore.YELLOW + f'root@{platform.system()}:~# ' + Fore.RESET)
     print()
 
     # Verifica se o usuário digitou "sair" para encerrar o programa

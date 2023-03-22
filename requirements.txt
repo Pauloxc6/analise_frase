@@ -1,4 +1,3 @@
 spacy==2.5.0
 pyfiglet==0.8.post1
-datetime=5.1
-os
+datetime==5.1
